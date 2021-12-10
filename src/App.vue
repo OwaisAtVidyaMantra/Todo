@@ -43,13 +43,8 @@
   </v-app>
 </template>
 
-<<<<<<< HEAD
-<script>dksadks
-import HelloWorld from './components/HelloWorld.vue'
-=======
 <script>
-import HelloWorld from './components/HelloWorld';
->>>>>>> ffe0b954deaa323eddd0af18ee2af42dd82c6dbe
+
 
 export default {
   name: 'App',
