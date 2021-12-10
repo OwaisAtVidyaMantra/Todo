@@ -1,35 +1,23 @@
 <template>
-  <div>
-    <v-container
-      v-for="align in alignments"
-      :key="align"
-      class="grey lighten-5 mb-6"
-    >
-      <v-row :align="align" no-gutters style="height: 150px">
-        <v-col v-for="n in 3" :key="n">
-          <v-card class="pa-2" outlined tile> One of three columns </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+  <v-card class="mx-auto " max-width="374">
+    <v-img
+      height="250"
+      src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+    ></v-img>
 
-    <v-container class="lighten-5">
-      <v-row no-gutters>
-        <v-col  lg="4" md="6" sm="12">
-          <v-card class="pa-2" elevation="0"> 
-              <v-img src=""></v-img>
-          </v-card>
-        </v-col>
+    <v-card-title>Cafe Badilico</v-card-title>
 
-        <v-col lg="4" md="6" sm="12">
-          <v-card class="pa-2" elevation="0"> One of three columns </v-card>
-        </v-col>
+    <v-card-text>
+      <div>
+        Small plates, salads & sandwiches - an intimate setting with 12 indoor
+        seats plus patio seating.
+      </div>
+    </v-card-text>
 
-        <v-col lg="4" md="6" sm="12">
-          <v-card class="pa-2" elevation="0"> One of three columns </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+    <v-divider class="mx-4"></v-divider>
+
+    <v-card-title>Tonight's availability</v-card-title>
+  </v-card>
 </template>
 <script>
 export default {};
