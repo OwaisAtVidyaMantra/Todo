@@ -24,7 +24,7 @@
     </v-col>
     <v-col class="px-10" lg="6">
       <v-expansion-panels>
-        <v-expansion-panel v-for="(item, i) in 7" :key="i">
+        <v-expansion-panel v-for="(item, i) in 5" :key="i">
           <v-expansion-panel-header> Item </v-expansion-panel-header>
           <v-expansion-panel-content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
