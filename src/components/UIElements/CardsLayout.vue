@@ -1,15 +1,16 @@
 <template>
-  <v-card class="mx-auto " max-width="374">
-    <img
+  <div>
+    <v-card class="mx-auto pa-8" max-width="374">
+    <v-img class="mx-auto"
       height="250"
       :src="getImgUrl(imageCard)"
-    >
+    ></v-img>
 
     <v-card-title>Cafe Badilico</v-card-title>
 
     <v-card-text>
       <div>
-        Small plates, salads & sandwiches - an intimate setting with 12 indoor
+        Small plates, salads and sandwiches - an intimate setting with 12 indoor
         seats plus patio seating.
       </div>
     </v-card-text>
@@ -18,6 +19,7 @@
 
     <v-card-title>Tonight's availability</v-card-title>
   </v-card>
+  </div>
 </template>
 <script>
 export default {
@@ -31,3 +33,6 @@ export default {
 }
 }
 </script>
+<style scoped>
+
+</style>
