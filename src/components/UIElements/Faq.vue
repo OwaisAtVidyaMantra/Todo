@@ -1,7 +1,7 @@
 <template>
   <v-row class="max-auto" nogutters="false">
     <v-col class="px-10" lg="6">
-      <v-expansion-panels popout>
+      <v-expansion-panels >
           <v-expansion-panel >
           <v-expansion-panel-header> Item </v-expansion-panel-header>
           <v-expansion-panel-content>
