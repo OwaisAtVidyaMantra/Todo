@@ -5,6 +5,7 @@
     <v-main>
       <app-banner></app-banner>
       <main-content></main-content>
+      <img :src="getImgUrl(imageD)" />
     </v-main>
   </v-app>
 </template>
@@ -20,7 +21,12 @@ export default {
     "app-banner": Banner,
     "main-content":MainContent
   },
-
+  data(){
+    return {
+      imageD : 'banner.png'
+    }
+    
+  }
   
-};
+    }
 </script>

@@ -1,9 +1,9 @@
 <template>
   <v-card class="mx-auto " max-width="374">
-    <v-img
+    <img
       height="250"
-      src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
-    ></v-img>
+      :src="getImgUrl(imageCard)"
+    >
 
     <v-card-title>Cafe Badilico</v-card-title>
 
@@ -20,5 +20,14 @@
   </v-card>
 </template>
 <script>
-export default {};
+export default {
+  props:{
+    imageCard:String
+  },
+ methods:{
+      getImgUrl(pic) {
+    return require('../../assets/'+pic)
+}
+}
+}
 </script>
